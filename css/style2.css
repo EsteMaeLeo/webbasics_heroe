@@ -1,0 +1,20 @@
+*{
+    color: rgb(6, 82, 235);
+}
+h1, p, a{
+    color:rgb(4, 81, 81)
+}
+
+h1, .element1, .element2, .element3{
+    font-size: 40px;
+}
+
+.container1 p{
+    color: rgb(86, 12, 213)
+}
+.container2 h3{
+    color: rgb(130, 5, 134);
+}
+.container3 ul li a{
+    color:rgb(184, 124, 12);
+}

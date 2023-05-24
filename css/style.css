@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+}
+h3 {
+  color: #89ddf0;
+}
+p {
+  color: #434ee1;
+}
+
+/*by ID*/
+#paragraph {
+  color: #611f9e;
+}
+
+.text {
+  color: #b48309;
+}
+
+.bold {
+  font-weight: 600;
+}
+.bg-color {
+  background-color: rgb(151, 62, 62);
+}
+.white-text {
+  color: white;
+}
+/**grouptin class*/
+.bg-color.white-text{
+    font-size: 30px;
+}
