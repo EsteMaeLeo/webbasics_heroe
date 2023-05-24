@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Attributes</title>
+</head>
+<body>
+    <h1>Input Attributes</h1>
+    <input type="text" name="name" autofocus placeholder="Write your name" tabindex="1">
+    <br><hr>
+    <input type="text" autocomplete="off" tabindex="5">
+    <input type="text" spellcheck="false" tabindex="2">
+    <input type="text" value="Hello World" tabindex="4">
+    <input type="text" tabindex="3">
+    <input type="text" disabled>
+    <br><hr>
+    <select multiple>
+        <option value="">option 1</option>
+        <option value="">option 2</option>
+        <option value="">option 3</option>
+    </select>
+    <br><hr>
+<!--Validations-->
+    <form action="">
+        <input type="" required>
+        <br><br>
+        <input type="text" readonly value="Text write by the user">
+        <br><br>
+        <input type="number" min="5" max="20" placeholder="5 to 20" title="number from 5 to 30">
+        <br><br>
+        <input type="password" placeholder="Password" minlength="5" maxlength="8">
+        <br><br>
+        <input type="text" pattern="[A-Z]{2}[0-9]{3}" placeholder="Pattern" title="Two letters and three numbers">
+        <input type="submit" value="Sent">
+    </form>
+</body>
+</html>
