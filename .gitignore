@@ -1,4 +1,6 @@
 node_module/
+fontawesome/
+.fontawesome
 .DS_Store
 .env.local
 .env.development.local
