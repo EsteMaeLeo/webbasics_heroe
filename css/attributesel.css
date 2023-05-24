@@ -1,0 +1,28 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+a[href="www.google.com"]{
+    color:brown
+}
+
+/*contain word*/
+a[href*="udemy"]{
+    color:violet
+}
+
+/*start with word*/
+a[href^="http"]{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+/*ends*/
+a[href$="pdf"]{
+    color:orange;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*general sibling*/
+.article h1 ~ span{
+    color: blue;
+}
+/*adjacent sibling*/
+.article h1 + span{
+    color:rgb(174, 82, 36);
+}

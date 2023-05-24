@@ -1,0 +1,36 @@
+*{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*first element*/
+
+p:first-child{
+    color: blue;
+}
+p:last-child{
+    color: rgb(121, 52, 189);
+}
+
+/*N element*/
+p:nth-child(3){
+    color:brown;
+}
+/*from button*/
+p:nth-last-child(2){
+    color:violet;
+}
+/*par elements using 2n or even inpar odd*/
+p:nth-child(even){
+    color:orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p:nth-child(odd){
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/*each 3 elements*/
+p:nth-child(3n){
+    font-size: 15px;
+}

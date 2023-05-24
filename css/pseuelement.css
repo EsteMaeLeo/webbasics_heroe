@@ -1,0 +1,33 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/**pseudoelement with :: generate content*/
+span::before{
+    content: '-';
+    font-size: 30px;
+}
+span::after{
+    content: 'Hello After CSS';
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 45px;
+}
+
+p::first-line{
+    color:cadetblue
+}
+
+ul li::marker{
+    color:blueviolet
+}
+
+/*placeholder*/
+
+input::placeholder{
+    color:red;
+    font-size: 15px;
+}
