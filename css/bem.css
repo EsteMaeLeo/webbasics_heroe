@@ -1,0 +1,31 @@
+*{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+BEM
+BLOCK .block ELEMENT .block__item MODIFIER .block-modifier
+*/
+/*bloc*/
+.box{
+    width: 400px;
+    background-color: rgb(167, 167, 238);
+    padding: 40px;
+    margin: 20px;
+}
+
+.box__btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(221, 221, 255);
+    border: none;
+    color: rgb(0, 52, 52);
+}
+
+.box--bgcustom{
+    background-color:rgb(224, 179, 250)
+}
+
+.box--btncustom{
+    background-color:rgb(206, 122, 255)
+}
