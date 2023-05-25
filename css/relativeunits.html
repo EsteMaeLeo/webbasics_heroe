@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*REM relative to grandfather
+    EM father direct
+    EX half size*/
+      :root {
+        font-size: 50px;
+      }
+      body {
+        font-size: 20px;
+      }
+      .h1 {
+        /*font size from browser multiply by rem unit*/
+        font-size: 3rem;
+      }
+      .h2 {
+        font-size: 2em;
+      }
+      .h3{
+        font-size: 1ex;
+      }
+      .h4{
+        font-size: 2ch;
+      }
+      div{
+        background-color: blue;
+        width: 50%;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Hello REM</h1>
+    <h1 class="h2">Hello EM</h1>
+    <h1 class="h3">Hello EX</h1>
+    <h1 class="h4">Hello CH</h4>
+    <div></div>
+  </body>
+</html>
