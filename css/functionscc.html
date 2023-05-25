@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        opacity: 40%;
+        background: black;
+        width: 100%;
+        height: 100px;
+    }
+    div.container{
+        opacity: 50%;
+        width: 100%;
+        height: 100vh;
+        background: blue;
+        /*calc function*/
+        height: calc(100vh - 100px);
+        /*minimun at 25% of screen*/
+        width: min(200px, 25%);
+        /*max*/
+     
+    }
+    .container2{
+        opacity: 50%;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        width: max(300px, 25%);
+        /*clamp combination both min and max*/
+        width: clamp(100px, 25%, 300px);
+    }
+    h1::after{
+        content: attr(data-name)
+    }
+</style>
+</head>
+<body>
+    <div class="menu"></div>
+    <div class="container"></div>
+    <div class="container2"><H1 data-name=" William">HELLO</H1></div>
+</body>
+</html>

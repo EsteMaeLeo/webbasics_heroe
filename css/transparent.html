@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transparent</title>
+    <style>
+      .container {
+        width: 200px;
+        height: 200px;
+        background: rgb(90, 58, 58);
+        /*transparent*/
+        background-color: transparent;
+        /*last two digits are the transparent*/
+        background-color: #00076650;
+      }
+      .containe2 {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(99, 11, 107, 0.25);
+      }
+      .containe3 {
+        width: 200px;
+        height: 200px;
+        background-color: hsla(124, 80%, 50%, 30%);
+      }
+      .containe4 {
+        width: 200px;
+        height: 200px;
+        background: rgb(47, 2, 2);
+        /*apply to all container include to the text*/
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="containe2"></div>
+    <div class="containe3"></div>
+    <div class="containe4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia at
+      rerum consequuntur repellendus laboriosam expedita adipisci voluptates
+      earum veniam! Veritatis delectus numquam quo nobis excepturi reprehenderit
+      quae earum veniam.
+    </div>
+  </body>
+</html>
