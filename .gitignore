@@ -1,7 +1,9 @@
 node_module/
 fontawesome/
 img/
+images/
 .img
+.images
 .fontawesome
 .DS_Store
 .env.local
