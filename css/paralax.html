@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAralax Effect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      section {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .container1 {
+        background: url(../img/img1.png);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      .container2 {
+        background: url(../img/img2.jpeg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      .container3 {
+        background: url(../img/img3.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      .container4 {
+        background: url(../img/img4.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+
+      .cont-box {
+        width: 100%;
+        height: 200px;
+        background: rgba(158, 140, 140, 0.516);
+        /*apply to all container include to the text*/
+        opacity: 0.2;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container1"></section>
+    <section class="cont-box"></section>
+    <section class="container2"></section>
+    <section class="cont-box"></section>
+    <section class="container3"></section>
+    <section class="cont-box"></section>
+    <section class="container4"></section>
+  </body>
+</html>
