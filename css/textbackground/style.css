@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Secular+One&display=swap');
+body {
+  background-color: black;
+}
+
+h1 {
+  /*font-family: "Rubik Puddles", cursive;
+  /*text will scale size of the screen*/
+  font-family: 'Secular One', sans-serif;
+  font-size: 8vw;
+  background: url(../../img/img5.jpg) no-repeat;
+  background-position: center center;
+  /* set position
+  background-position-x;
+  background-position-y: ;*/
+  background-color: rgb(190, 155, 86);
+  background-size: cover;
+  background-clip: text;
+  /*- with this sent the image back*/
+  -webkit-background-clip: text;
+  color: transparent;
+}
