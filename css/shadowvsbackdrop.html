@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Vs Backdrop</title>
+    <style>
+        body{
+            background: rgba(84, 84, 234, 0.697);
+            text-align: center;
+        }
+        img{
+           margin: 100px 20px; 
+        }
+        .logo{/*shadow to the container*/
+            box-shadow: 0 0 15px 10px #fff;
+        }
+        .logo2{/*apply shadon to the image*/
+            filter: drop-shadow(0 0 15px #fff);
+        }
+    </style>
+</head>
+<body>
+    <img src="../img/pngwing.com.png" alt="" class="logo">
+    <img src="../img/apple.png" alt="" class="logo2">
+</body>
+</html>
