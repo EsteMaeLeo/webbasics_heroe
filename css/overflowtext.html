@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow Text</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: linear-gradient(90deg, #adaec0, #130bab);
+      }
+      h1 {
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; /*create ... at end indicate there is more text*/
+      }
+      h2 {
+        width: 300px;
+        /*less use to overflow text*/
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        text-shadow: 5px 0px 5px #000;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        /*combine the element from backgrPound*/
+        mix-blend-mode: overlay;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni
+      possimus tempore voluptas, pariatur repudiandae?
+    </h1>
+    <h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+      maiores ? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Architecto, officia quam eius perferendis autem mollitia iure quibusdam
+      deserunt eaque blanditiis velit corrupti suscipit officiis qui
+      perspiciatis. Ipsa harum eligendi ullam!
+    </h2>
+  </body>
+</html>

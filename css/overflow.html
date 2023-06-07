@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+      * {
+        /*setting to 0 padding and margin*/
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+        background: linear-gradient(90deg, #aecab8, rgb(109, 199, 227));
+
+        overflow: hidden;
+        overflow: visible;
+        overflow: scroll;
+        overflow: auto; /*use a scroll bar in case long text if now  will no use a scroll*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        aliquid eum voluptas adipisci rem, doloribus reprehenderit eaque commodi
+        minus, rerum, porro eius! Repellat odit sit suscipit id dolores ipsam
+        ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+        quaerat! Magnam numquam quod vero, ut assumenda deserunt, exercitationem
+        delectus blanditiis porro ratione nemo! Maxime, natus eveniet fugiat
+        consequatur unde corporis placeat ab libero delectus ipsam? Laudantium
+        vel possimus ducimus suscipit!
+      </p>
+    </div>
+  </body>
+</html>
