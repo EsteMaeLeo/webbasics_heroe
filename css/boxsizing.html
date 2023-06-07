@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box sizing</title>
+    <style>
+        *{ /*setting to 0 padding and margin*/
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /*The box-sizing CSS property sets how the total width and height of an element is calculated.*/
+        }
+      .container {
+        background: linear-gradient(90deg, #64a179, rgb(46, 130, 155));
+        width: 100%;
+        height: 100px;
+        padding: 25px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">Hello Border Box</div>
+  </body>
+</html>
