@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Text</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #555555af;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 12px 12px 5px 10px #444;
+        border-radius: 15px;
+        overflow: auto;
+      }
+      .container h1 {
+        font-size: 38px;
+        font-weight: 600;
+        color: black;
+        text-shadow: 5px 0px 5px #444;
+      }
+      .container hr {
+        background-color: #00a2ff;
+        width: 50px;
+        height: 5px;
+        border: none;
+        margin: 20px 0;
+        border-radius: 50px;
+      }
+      p {
+        margin-bottom: 20px;
+        line-height: 28px;
+        font-size: 16px;
+        color: #444;
+      }
+      .pBody{
+        color:black;
+        font-size: 30px;
+      }
+      body::-webkit-scrollbar{
+        /*background*/
+        width: 20px;
+        background: #000000
+      }
+      body::-webkit-scrollbar-thumb{
+        background: rgb(61, 61, 61);
+        border-radius: 15px;
+      }
+    .container::-webkit-scrollbar{
+        width: 10px;
+    }
+    .container::-webkit-scrollbar-thumb{
+        background-color: #00a2ff;
+        border-radius: 5px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello Scroll Bar</h1>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+        reprehenderit quae, quas nulla qui unde ab dolor iure ipsam doloremque
+        vel facere fugit aliquid quis sit a tempora sequi id rem. Exercitationem
+        expedita a vel mollitia magni delectus dolore perspiciatis aperiam, esse
+        aliquam fugit ullam suscipit quo eligendi ut. Placeat, nemo atque!
+        Laboriosam soluta nulla quisquam porro, voluptas sapiente inventore
+        aliquid veniam sint eum quibusdam repellat ullam, minima consectetur nam
+        fuga tempore beatae quo officiis. Quos quam pariatur deleniti minima
+        quidem adipisci quibusdam animi asperiores dolorum fuga ad sequi
+        laudantium deserunt cum fugiat ipsa, culpa ducimus aut error ullam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+        exercitationem tempora voluptates sit quaerat quibusdam rem dolorum
+        tempore magnam assumenda error repellendus unde earum ex consequatur
+        distinctio placeat ea consectetur ipsa, doloribus natus sed quos
+        laboriosam. Facilis recusandae commodi quis dignissimos illum animi
+        vitae! Ullam quisquam, voluptatem beatae saepe totam hic sunt aut quidem
+        debitis sint itaque, nam voluptatum praesentium asperiores dolorum animi
+        harum culpa! Tempora excepturi corrupti pariatur sequi dolore delectus
+        inventore iusto quisquam cumque nam, dignissimos amet eum quam itaque
+        voluptate voluptatum qui sit unde quo nisi a exercitationem facilis
+        quibusdam! Suscipit repellendus neque reiciendis omnis ratione
+        dignissimos?
+      </p>
+    </div>
+    <p class="pBody">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+        reprehenderit quae, quas nulla qui unde ab dolor iure ipsam doloremque
+        vel facere fugit aliquid quis sit a tempora sequi id rem. Exercitationem
+        expedita a vel mollitia magni delectus dolore perspiciatis aperiam, esse
+        aliquam fugit ullam suscipit quo eligendi ut. Placeat, nemo atque!
+        Laboriosam soluta nulla quisquam porro, voluptas sapiente inventore
+        aliquid veniam sint eum quibusdam repellat ullam, minima consectetur nam
+        fuga tempore beatae quo officiis. Quos quam pariatur deleniti minima
+        quidem adipisci quibusdam animi asperiores dolorum fuga ad sequi
+        laudantium deserunt cum fugiat ipsa, culpa ducimus aut error ullam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+        exercitationem tempora voluptates sit quaerat quibusdam rem dolorum
+        tempore magnam assumenda error repellendus unde earum ex consequatur
+        distinctio placeat ea consectetur ipsa, doloribus natus sed quos
+        laboriosam. Facilis recusandae commodi quis dignissimos illum animi
+        vitae! Ullam quisquam, voluptatem beatae saepe totam hic sunt aut quidem
+        debitis sint itaque, nam voluptatum praesentium asperiores dolorum animi
+        harum culpa! Tempora excepturi corrupti pariatur sequi dolore delectus
+        inventore iusto quisquam cumque nam, dignissimos amet eum quam itaque
+        voluptate voluptatum qui sit unde quo nisi a exercitationem facilis
+        quibusdam! Suscipit repellendus neque reiciendis omnis ratione
+        dignissimos?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+        reprehenderit quae, quas nulla qui unde ab dolor iure ipsam doloremque
+        vel facere fugit aliquid quis sit a tempora sequi id rem. Exercitationem
+        expedita a vel mollitia magni delectus dolore perspiciatis aperiam, esse
+        aliquam fugit ullam suscipit quo eligendi ut. Placeat, nemo atque!
+        Laboriosam soluta nulla quisquam porro, voluptas sapiente inventore
+        aliquid veniam sint eum quibusdam repellat ullam, minima consectetur nam
+        fuga tempore beatae quo officiis. Quos quam pariatur deleniti minima
+        quidem adipisci quibusdam animi asperiores dolorum fuga ad sequi
+        laudantium deserunt cum fugiat ipsa, culpa ducimus aut error ullam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+        exercitationem tempora voluptates sit quaerat quibusdam rem dolorum
+        tempore magnam assumenda error repellendus unde earum ex consequatur
+        distinctio placeat ea consectetur ipsa, doloribus natus sed quos
+        laboriosam. Facilis recusandae commodi quis dignissimos illum animi
+        vitae! Ullam quisquam, voluptatem beatae saepe totam hic sunt aut quidem
+        debitis sint itaque, nam voluptatum praesentium asperiores dolorum animi
+        harum culpa! Tempora excepturi corrupti pariatur sequi dolore delectus
+        inventore iusto quisquam cumque nam, dignissimos amet eum quam itaque
+        voluptate voluptatum qui sit unde quo nisi a exercitationem facilis
+        quibusdam! Suscipit repellendus neque reiciendis omnis ratione
+        dignissimos?
+      </p>
+  </body>
+</html>
