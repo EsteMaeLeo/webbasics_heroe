@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static and Relative</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 300px;
+            height: 300px;
+            background: rgba(183, 149, 149, 0.505);
+            margin: 20px;
+            /*default position Static positioned elements are not affected by the top, bottom, left, and right properties.*/
+            position: static;
+            /*An element with position: relative; is positioned relative to its normal position. Setting the top, right, bottom, 
+            and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position*/
+            position: relative;
+            top: 50px;
+            left: 100px
+        }
+        .container2{
+            width: 300px;
+            height: 300px;
+            background: rgba(105, 55, 55, 0.505);
+            margin: 20px;
+            position: relative;
+            top: 5px;
+            left: 10px
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="container2"></div>
+</body>
+</html>
