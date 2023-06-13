@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background: rgba(108, 108, 234, 0.711);
+            margin: 10px;
+            padding: 20px;
+            border: 3px solid black;
+
+            /*display*/
+            display: block;
+            display: inline; /*ignore widht and height*/
+            display: inline-block; /*use width and height*/
+            display: list-item; /*like list*/
+            display: table-cell;/*like th and  td*/
+            display: table-row; /*tr*/
+            display: none; /*no display elements not reserve the space*/
+            
+            display: inline-block; 
+        }
+    </style>
+</head>
+<body>
+    <div style="display: none">Content 1</div>
+    <div style=" visibility: hidden">Content 2</div>
+    <div>Content 3</div>
+</body>
+</html>
