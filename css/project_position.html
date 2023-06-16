@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services</title>
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
     <style>
       :root {
         --color-primary: #5a2ea1a7;
@@ -65,8 +66,7 @@
       .container p {
         margin-bottom: 30px;
         line-height: 30px;
-        font-size: 25px;
-        font-weight: 600;
+        font-size: 18px;
       }
 
       .container .title {
@@ -103,10 +103,29 @@
         font-weight: 700;
         margin-bottom: 10px;
       }
+      .btn-fixed{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50;
+        border-radius: 50%;
+        text-align: center;
+        background: var(--color-primary);
+        cursor: pointer;
+      }
+      .btn-fixed i{
+        color: white;
+        font-size: 20px;
+        line-height: 50px;
+      }
     </style>
   </head>
   <body>
     <header>
+        <div class="btn-fixed">
+            <i class="fas fa-envelope"></i>
+        </div>
       <nav class="nav-bar">
         <div>
           <a href="#">Home</a>
@@ -221,5 +240,10 @@
         </div>
       </div>
     </main>
+    <footer>
+        <div class="container-image">
+            <img src="" alt="">
+        </div>
+    </footer>
   </body>
 </html>
