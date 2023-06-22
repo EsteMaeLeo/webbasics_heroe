@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transitions</title>
     <style>
-        *{
-            margin:0;
-            padding: 0;
-        }
-        div{
-            width: 200px;
-            height: 200px;
-            margin: 70px;
-            display: inline-block;
-        }
-        .container{
-            background: #90181875;
-        }
-        .container:hover{
-            background: #9277479f;
-        }
-        .container-transition{
-            background: #18849080;
-            /*properties*/
-            transition-property: background;
-            transition-duration: 1s;
-            transition-timing-function: linear;
-            transition-delay: 1s;
-        }
-        .container-transition:hover{
-            background: #0d318eb2;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        margin: 70px;
+        display: inline-block;
+      }
+      .container {
+        background: #90181875;
+      }
+      .container:hover {
+        background: #a575249f;
+        /*properties*/
+        transition-property: background;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+      }
+      .container-transition {
+        background: #18849080;
+        /*properties*/
+        /*shortcut*/
+        transition: background 1s linear 1s;
+
+        /*for all*/
+        transition: all 1s linear 1s;
+      }
+      .container-transition:hover {
+        background: #0d318eb2;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container"></div>
     <div class="container-transition"></div>
-</body>
+  </body>
 </html>
