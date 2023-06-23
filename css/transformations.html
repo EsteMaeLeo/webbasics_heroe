@@ -24,16 +24,30 @@
             /*move X and Y*/
             transform: translate(50px, 300px); 
         }
+        #move:hover{
+            transform: translate(0px, 50px); 
+            transition: all 0.7s;
+        }
+
         /*increase size*/
         #escalate{
             background: #c79edeac;
             transform: scale(0.5);
         }
+        #escalate:hover{
+            transform: scale(1.2);
+            transition: all 0.7s;
+        }
         /*rotate*/
         #rotate{
             background: #5288d4ac;
-            transform: rotate(30deg);
+           
         }
+        #rotate:hover{
+            transform: rotate(150deg);
+            transition: all 0.7s;
+        }
+
         #deform{
             background: #6ddb57b1;
             transform: skew(25deg);
