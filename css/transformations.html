@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transformations</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        div{
-            width: 200px;
-            height: 200px;
-            margin: 50px;
-            display: inline-block;
-        }
-        /*move*/
-        #move{
-            background: #ed561ab1;
-            transform: translateX(200px); 
-            transform: translateY(200px);
-            /*move X and Y*/
-            transform: translate(50px, 300px); 
-        }
-        #move:hover{
-            transform: translate(0px, 50px); 
-            transition: all 0.7s;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        display: inline-block;
+      }
+      /*move*/
+      #move {
+        background: #ed561ab1;
+        transform: translateX(200px);
+        transform: translateY(200px);
+        /*move X and Y*/
+        transform: translate(50px, 300px);
+      }
+      #move:hover {
+        transform: translate(0px, 50px);
+        transition: all 0.7s;
+      }
 
-        /*increase size*/
-        #escalate{
-            background: #c79edeac;
-            transform: scale(0.5);
-        }
-        #escalate:hover{
-            transform: scale(1.2);
-            transition: all 0.7s;
-        }
-        /*rotate*/
-        #rotate{
-            background: #5288d4ac;
-           
-        }
-        #rotate:hover{
-            transform: rotate(150deg);
-            transition: all 0.7s;
-        }
+      /*increase size*/
+      #escalate {
+        background: #c79edeac;
+        transform: scale(0.5);
+      }
+      #escalate:hover {
+        transform: scale(1.2);
+        transition: all 0.7s;
+      }
+      /*rotate*/
+      #rotate {
+        background: #5288d4ac;
+      }
+      #rotate:hover {
+        transform: rotate(150deg);
+        transition: all 0.7s;
+      }
 
-        #deform{
-            background: #6ddb57b1;
-            transform: skew(25deg);
-        }
+      #deform {
+        background: #6ddb57b1;
+        transform: skew(25deg);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="move"></div>
     <div id="escalate"></div>
     <div id="rotate"></div>
     <div id="deform"></div>
-</body>
+  </body>
 </html>
