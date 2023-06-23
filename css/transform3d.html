@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform3D</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            perspective: 700px;
+            perspective-origin: center;
+        }
+        .box{
+            background: #5288d4ac;
+            width: 300px;
+            height: 300px;
+            margin: 150px auto;
+            transition: all 5s;
+
+            transform: rotateX(50deg);
+            transform: rotateY(50deg);
+            transform: rotateZ(50deg);
+
+            /*same above shortcut*/
+            transform: rotate3d(1, 1, 0, 70deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
