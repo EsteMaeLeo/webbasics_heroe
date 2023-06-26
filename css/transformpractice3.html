@@ -28,6 +28,7 @@
         transform: translate(-50%, -50%);
         width: 500px;
         height: 400px;
+        perspective: 2000px;
         transition: all 0.5s;
       }
       .box::before {
@@ -87,8 +88,20 @@
         background: #fff;
         color: #293775;
         text-align: center;
-        line-height: 80px ;
+        line-height: 80px !important;
         font-size: 40px;
+      }
+
+      i.fa1{
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      i.fa2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
       }
     </style>
   </head>
@@ -96,7 +109,7 @@
     <div class="box">
       <i class="fa2 fas fa-quote-left"></i>
       <div class="text">
-        <i class="fa2 fas fa-quote-left"></i>
+        <i class="fa1 fas fa-quote-left"></i>
         <div>
           <h1>Day Note</h1>
           <p>
