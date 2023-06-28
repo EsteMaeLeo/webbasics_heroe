@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clip Path</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Diphylleia:regular);
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Diphylleia";
+      }
+      body {
+        background: rgb(34, 193, 195);
+        background: linear-gradient(
+          90deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(167, 45, 253, 1) 90%
+        );
+      }
+      div {
+        width: 200px;
+        margin: 300px auto;
+      }
+      a {
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+      }
+      a span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color:aliceblue;
+        background: #7e68a5a4;
+        text-align: center;
+        line-height: 50px;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 2px;
+      }
+      a span:nth-child(2){
+        color:#7e68a5a4;
+        background: #fff;
+        clip-path: polygon(64% 0, 100% 0%, 100% 100%, 64% 100%, 38% 51%);
+        transition: all 0.5s;
+    }
+    a span:nth-child(2):hover{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 50%);
+    }
+    a span:nth-child(1):hover ~ span:nth-child(2){
+        clip-path: polygon(100% 1%, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#">
+        <span>Button</span>
+        <span>Button</span>
+      </a>
+    </div>
+  </body>
+</html>
