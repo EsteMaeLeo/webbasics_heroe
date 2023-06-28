@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIV Center</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      div {
+        position: relative;
+        background: rgba(220, 20, 60, 0.713);
+        color: #fff;
+        width: 500px;
+        height: 500px;
+        margin: 50px auto
+      }
+      h1 {
+        /* First option: Center one line text*/
+        /*text-align: center;
+        line-height: 450px;*/
+        
+        /*second option*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        /*third option*/
+
+      }
     </style>
-</head>
-<body>
-    <div></div>
-</body>
+  </head>
+  <body>
+    <div >
+        <h1>Center Text</h1>
+    </div>
+  </body>
 </html>
