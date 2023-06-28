@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css" />
     <title>Transform3D</title>
     <style>
       * {
@@ -29,6 +29,7 @@
         width: 500px;
         height: 400px;
         perspective: 2000px;
+        transform-style: preserve-3d;
         transition: all 0.5s;
       }
       .box::before {
@@ -55,6 +56,13 @@
         border-right: 20px solid #fff;
         box-sizing: border-box;
       }
+      .box:hover {
+        transform: translate(-50%, -50%) rotateY(-30deg) skew(5deg);
+      }
+
+      .text:hover{
+        transform: rotateY(30deg) skew(-5deg);
+      }
       .text {
         position: absolute;
         background: #293775;
@@ -62,6 +70,8 @@
         left: -30px;
         width: calc(100% + 60px);
         height: calc(100% - 60px);
+        transition: all 0.5s;
+
       }
       .text div {
         position: absolute;
@@ -82,7 +92,7 @@
       .text div p {
         font-size: 18px;
       }
-      i{
+      i {
         width: 80px;
         height: 80px;
         background: #fff;
@@ -92,12 +102,12 @@
         font-size: 40px;
       }
 
-      i.fa1{
+      i.fa1 {
         position: absolute;
         top: 0;
         left: 0;
       }
-      i.fa2{
+      i.fa2 {
         position: absolute;
         bottom: 0;
         right: 0;
