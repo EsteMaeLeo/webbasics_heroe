@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*first animations propierties*/
+        .container1{
+            width: 200px;
+            height: 200px;
+            background: rgb(225, 156, 156);
+            margin: 50px 0;
+
+            /*Propierties*/
+            animation-name: changeColor; /*name or id for the animations*/
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: backwards;
+            animation-play-state: paused;
+
+            /*shourtcut*/
+            animation: changeColor 5s linear infinite alternate running; 
+        }
+
+        .container2{
+            width: 200px;
+            height: 200px;
+            background: rgb(223, 70, 70);
+            margin: 50px 0;
+
+
+            /*shourtcut*/
+            animation: changeColor2 5s linear infinite alternate running; 
+        }
+        .container1:hover{
+            animation-play-state: running;
+        }
+        /*create animation*/
+        @keyframes changeColor {
+            10%{
+                background: rgb(86, 86, 225);
+            }
+            30%{
+                background: rgb(214, 173, 96);
+            }
+            50%{
+                background: rgb(141, 114, 114);
+            }
+            70%{
+                background: rgb(46, 41, 41);
+            }
+            100%{
+                background: rgba(113, 19, 19, 0.724);
+            }
+            
+        }
+
+         /*create animation*/
+         @keyframes changeColor2 {
+            0%{
+                transform: translateX(0);
+            }
+            10%{
+                background: rgb(43, 43, 68);
+            }
+            30%{
+                background: rgb(215, 142, 6);
+            }
+            50%{
+                background: rgb(61, 32, 32);
+            }
+            70%{
+                background: rgb(21, 74, 40);
+            }
+            100%{
+                transform: translateX(100px);
+                background: rgba(71, 19, 113, 0.724);
+            }
+    </style>
+
+</head>
+<body>
+    <div class="container1"></div>
+    <div class="container2"></div>
+</body>
+</html>
