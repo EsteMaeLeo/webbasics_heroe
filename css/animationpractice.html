@@ -19,8 +19,30 @@
             margin: 100px;
             font-size: 14vw;
             color: #394276;
-            -webkit-text-stroke: 3px #fff;
+            -webkit-text-stroke: 3px #4f66eb;
             text-transform: uppercase;
+        }
+        h2::before{
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            color:rgb(41, 120, 210);
+            -webkit-text-stroke: 0px #4f66eb;
+            border-right: 2px solid rgb(41, 120, 210);
+            overflow: hidden;
+            animation: animate 5s linear alternate infinite;
+        }
+        @keyframes animate {
+            0%{
+                width: 0;
+            }
+            80%, 100%{
+                width: 80%;
+            }
+            
         }
     </style>
 </head>
