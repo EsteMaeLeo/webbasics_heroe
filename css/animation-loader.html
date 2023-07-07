@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loader</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .loader{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 170px;
+        height: 170px;
+        border: 10px solid rgb(37, 115, 200);
+      }
+      span{
+        width: 50px;
+        height: 50px;
+        background: rgba(17, 29, 102, 0.742);
+        display: block;
+        float: left;
+        animation: animate 2s linear infinite;
+      }
+      @keyframes animate{
+        0%{
+            transform: scale(1);
+        }
+        30%{
+            transform: scale(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </body>
+</html>
