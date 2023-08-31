@@ -9,6 +9,36 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1;
 }
+button{
+    padding: 15px 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px cyan, 
+                0 0 25px cyan;
+    transition: all 0.5s ease;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+   
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+button:hover{
+    box-shadow: 0 0 5px cyan, 
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 70px cyan;
+    font-weight: 700;
+}
+
+.container{
+    width: min(900px, 100% - 3rem);
+    margin-inline: auto;
+    padding: 50px;
+}
 
 .wrapper{
     width: min(900px, 100% - 3rem);
@@ -21,7 +51,7 @@ table{
     border-collapse: collapse;
     background: #323232;
    
-    box-shadow: 0px 5px 10px  rgb(181, 169, 169);
+    box-shadow: 0px 5px 10px  cyan
 }
 
 th,

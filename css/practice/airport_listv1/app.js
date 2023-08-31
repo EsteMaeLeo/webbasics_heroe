@@ -1,4 +1,5 @@
 let xmlhttp;
+const btnAirtport = document.querySelector(".getList")
 
 function loadXMLDoc() {
   xmlhttp = new XMLHttpRequest();
@@ -46,5 +47,10 @@ function airportDetails(xml) {
   // Print the xml data in table form
   document.getElementById("airportList").innerHTML = table;
 }
+btnAirtport.addEventListener("click", clickList);
 
-loadXMLDoc();
+function clickList(e){
+  loadXMLDoc();
+}
+
+
