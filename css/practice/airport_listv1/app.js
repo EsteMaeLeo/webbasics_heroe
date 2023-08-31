@@ -31,17 +31,17 @@ function airportDetails(xml) {
                     </tr>`;
 
   //get all elements ITEM inside XML
-  let x = xmlDoc.getElementsByTagName("item");
+  let item = xmlDoc.getElementsByTagName("item");
 
   // Start to fetch the data by using TagName
-  for (i = 0; i < x.length; i++) {
+  for (i = 0; i < item.length; i++) {
     table +=
-      "<tr><td>" +
-      x[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue +
-      "</td><td>" +
-      x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
-      "</td><td>" +
-      x[i].getElementsByTagName("TIME_ZONE")[0].childNodes[0].nodeValue;
+      "<tr><td  data-cell='id'>" +
+      item[i].getElementsByTagName("ID")[0].childNodes[0].nodeValue +
+      "</td><td  data-cell='name'>" +
+      item[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+      "</td><td  data-cell='Time zone'>" +
+      item[i].getElementsByTagName("TIME_ZONE")[0].childNodes[0].nodeValue;
   }
 
   // Print the xml data in table form
