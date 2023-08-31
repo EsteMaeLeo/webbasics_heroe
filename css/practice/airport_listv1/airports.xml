@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Header/>
+   <soap-env:Body>
+      <n0:ZFM_AIRPORTResponse xmlns:n0="urn:sap-com:document:sap:rfc:functions">
+         <AIRPORTS>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ACA</ID>
+               <NAME>Acapulco, Mexico</NAME>
+               <TIME_ZONE>UTC-6</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ACE</ID>
+               <NAME>Lanzarote, Canary IS</NAME>
+               <TIME_ZONE>UTC</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>AIY</ID>
+               <NAME>Atlantic City, USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ASP</ID>
+               <NAME>Alice Springs, AUS</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>BKK</ID>
+               <NAME>Bangkok, Thailand</NAME>
+               <TIME_ZONE>UTC+7</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>BNA</ID>
+               <NAME>Nashville, USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>BOS</ID>
+               <NAME>Boston Logan Int, USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>CDG</ID>
+               <NAME>Paris Charles de Gaulle,F</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>DEN</ID>
+               <NAME>Denver Int., USA</NAME>
+               <TIME_ZONE>UTC-7</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ELP</ID>
+               <NAME>El Paso Int., USA</NAME>
+               <TIME_ZONE>UTC-7</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>EWR</ID>
+               <NAME>New York Newark Int., USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>FCO</ID>
+               <NAME>Rome Leonardo Da Vinci, I</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>FRA</ID>
+               <NAME>Frankfurt/Main, FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>GCJ</ID>
+               <NAME>Johannesburg Grand C., SA</NAME>
+               <TIME_ZONE>UTC+2</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>GIG</ID>
+               <NAME>Rio De Janeiro Int., BRA</NAME>
+               <TIME_ZONE>UTC-3</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>HAM</ID>
+               <NAME>Hamburg, FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>HIJ</ID>
+               <NAME>Hiroshima, Japan</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>HKG</ID>
+               <NAME>Hongkong</NAME>
+               <TIME_ZONE>UTC+8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>HOU</ID>
+               <NAME>Houston Hobby Apt, USA</NAME>
+               <TIME_ZONE>UTC-6</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>HRE</ID>
+               <NAME>Harare, Zimbabwe</NAME>
+               <TIME_ZONE>UTC+2</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ITM</ID>
+               <NAME>Osaka Itami Apt, Japan</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>JFK</ID>
+               <NAME>New York JF Kennedy, USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>JKT</ID>
+               <NAME>Jakarta, Indonesia</NAME>
+               <TIME_ZONE>UTC+7</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>KIX</ID>
+               <NAME>Osaka Kansai Int., Japan</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>KUL</ID>
+               <NAME>Kuala Lumpur, Malaysia</NAME>
+               <TIME_ZONE>UTC+8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>LAS</ID>
+               <NAME>Las Vegas Mc Carran, USA</NAME>
+               <TIME_ZONE>UTC-8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>LAX</ID>
+               <NAME>Los Angeles Int Apt, USA</NAME>
+               <TIME_ZONE>UTC-8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>LCY</ID>
+               <NAME>London City Apt, UK</NAME>
+               <TIME_ZONE>UTC</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>LGW</ID>
+               <NAME>London Gatwick Apt, UK</NAME>
+               <TIME_ZONE>UTC</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>LHR</ID>
+               <NAME>London Heathrow Apt, UK</NAME>
+               <TIME_ZONE>UTC</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>MAD</ID>
+               <NAME>Madrid Barajas Apt, Spain</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>MCI</ID>
+               <NAME>Kansas City Int Apt, USA</NAME>
+               <TIME_ZONE>UTC-6</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>MIA</ID>
+               <NAME>Miami Int Apt, USA</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>MUC</ID>
+               <NAME>Munich, FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>NRT</ID>
+               <NAME>Tokyo Narita, Japan</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ORY</ID>
+               <NAME>Paris Orly Apt, France</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>PID</ID>
+               <NAME>Nassau Paradise IS,Bahama</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>RTM</ID>
+               <NAME>Rotterdam Apt, NL</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>SEL</ID>
+               <NAME>Seoul Kimpo Int, ROK</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>SFO</ID>
+               <NAME>San Francisco Int Apt,USA</NAME>
+               <TIME_ZONE>UTC-8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>SIN</ID>
+               <NAME>Singapore</NAME>
+               <TIME_ZONE>UTC+8</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>STO</ID>
+               <NAME>Stockholm, Sweden</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>SVO</ID>
+               <NAME>Moscow Sheremetyevo Apt,R</NAME>
+               <TIME_ZONE>UTC+3</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>SXF</ID>
+               <NAME>Berlin Schonefeld Apt,FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>THF</ID>
+               <NAME>Berlin Tempelhof Apt, FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>TXL</ID>
+               <NAME>Berlin Tegel Apt, FRG</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>TYO</ID>
+               <NAME>Tokyo, JAPAN</NAME>
+               <TIME_ZONE>UTC+9</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>VCE</ID>
+               <NAME>Venice Marco Polo Apt, I</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>VIE</ID>
+               <NAME>Vienna, Austria</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>VKO</ID>
+               <NAME>Moscow Vnukovo Apt, R</NAME>
+               <TIME_ZONE>UTC+3</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>YEG</ID>
+               <NAME>Edmonton Int Apt, CDN</NAME>
+               <TIME_ZONE>UTC-7</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>YOW</ID>
+               <NAME>Ottawa Uplands Int., CDN</NAME>
+               <TIME_ZONE>UTC-5</TIME_ZONE>
+            </item>
+            <item>
+               <MANDT>001</MANDT>
+               <ID>ZRH</ID>
+               <NAME>Zurich, Switzerland</NAME>
+               <TIME_ZONE>UTC+1</TIME_ZONE>
+            </item>
+         </AIRPORTS>
+         <RESULT>OK</RESULT>
+      </n0:ZFM_AIRPORTResponse>
+   </soap-env:Body>
+</soap-env:Envelope>
